@@ -22,13 +22,13 @@ export const Button: React.FC<ButtonProps> = ({
     secondary: 'bg-gray-200 text-gray-900 hover:bg-gray-300 focus-visible:ring-gray-500',
     outline: 'border border-gray-300 bg-transparent hover:bg-gray-100 focus-visible:ring-gray-500',
     ghost: 'bg-transparent hover:bg-gray-100 focus-visible:ring-gray-500',
-  };
+  } as const;
   
   const sizeClasses = {
     sm: 'h-8 px-3 text-xs',
     md: 'h-10 px-4 text-sm',
     lg: 'h-12 px-6 text-base',
-  };
+  } as const;
   
   const classes = [
     baseClasses,

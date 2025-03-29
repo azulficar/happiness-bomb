@@ -14,11 +14,11 @@ export const Card: React.FC<CardProps> = ({
   const variantClasses = {
     default: 'shadow-md',
     bordered: 'border border-gray-200',
-  };
+  } as const;
 
   const classes = [
     baseClasses,
-    variantClasses[variant as keyof typeof variantClasses],
+    variantClasses[variant],
     className
   ].join(' ');
 
