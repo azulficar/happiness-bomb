@@ -439,3 +439,236 @@
 2025-03-29T17:39:29.837580Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
 2025-03-29T17:39:50.838688Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/happiness-bomb-ui.d.ts")}
 2025-03-29T17:39:50.838705Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:43:43.546173Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/package.json")}
+2025-03-29T17:43:43.546189Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:44.544870Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:43:44.554040Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:43:45.045097Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo")}
+2025-03-29T17:43:45.045117Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:46.845016Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/schema.graphql")}
+2025-03-29T17:43:46.845054Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:46.845225Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T17:43:52.445752Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo")}
+2025-03-29T17:43:52.445803Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:53.146387Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/package.json")}
+2025-03-29T17:43:53.146422Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:53.245506Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo")}
+2025-03-29T17:43:53.245535Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:54.045424Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:43:54.045444Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:43:54.544902Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/schema.graphql")}
+2025-03-29T17:43:54.544923Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:54.545002Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T17:43:58.345935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/decorators"), AnchoredSystemPathBuf("apps/backend/src/modules/auth")}
+2025-03-29T17:43:58.345957Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:43:58.346046Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T17:44:03.145728Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.module.ts"), AnchoredSystemPathBuf("src/modules"), AnchoredSystemPathBuf("src/modules/auth")}
+2025-03-29T17:44:03.145741Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:04.845543Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.module.ts")}
+2025-03-29T17:44:04.845563Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:14.646430Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.service.ts")}
+2025-03-29T17:44:14.646442Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:16.348442Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.service.ts")}
+2025-03-29T17:44:16.348471Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:21.746396Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.middleware.ts")}
+2025-03-29T17:44:21.746409Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:23.346469Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.middleware.ts")}
+2025-03-29T17:44:23.346484Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:23.446281Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/auth/auth.middleware.ts")}
+2025-03-29T17:44:23.446296Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:28.945747Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/common/decorators"), AnchoredSystemPathBuf("src/common"), AnchoredSystemPathBuf("src/common/decorators/current-user.decorator.ts")}
+2025-03-29T17:44:28.945760Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:30.646739Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/common/decorators/current-user.decorator.ts")}
+2025-03-29T17:44:30.646754Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:35.346941Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/common/decorators/current-user.decorator.ts"), AnchoredSystemPathBuf("src/modules/auth/auth.module.ts")}
+2025-03-29T17:44:35.346964Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:41.546390Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user"), AnchoredSystemPathBuf("src/modules/user/user.service.ts")}
+2025-03-29T17:44:41.546407Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:41.646886Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.service.ts")}
+2025-03-29T17:44:41.646899Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:43.447372Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.service.ts")}
+2025-03-29T17:44:43.447384Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:54.446855Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:44:54.446877Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:59.747166Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.service.ts")}
+2025-03-29T17:44:59.747184Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:44:59.847898Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.service.ts")}
+2025-03-29T17:44:59.847926Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:03.248184Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("prisma/schema.prisma")}
+2025-03-29T17:45:03.248221Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:32.648915Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("prisma/migrations/20250329174532_add_external_id"), AnchoredSystemPathBuf("prisma/migrations/20250329174532_add_external_id/migration.sql"), AnchoredSystemPathBuf("prisma/migrations/migration_lock.toml")}
+2025-03-29T17:45:32.648933Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:39.049031Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/app.module.ts")}
+2025-03-29T17:45:39.049048Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:41.248743Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/app.module.ts")}
+2025-03-29T17:45:41.248761Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:41.347907Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/app.module.ts")}
+2025-03-29T17:45:41.347923Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:43.149734Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/app.module.ts")}
+2025-03-29T17:45:43.149752Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:53.243130Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.resolver.ts")}
+2025-03-29T17:45:53.243151Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:53.344595Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.resolver.ts")}
+2025-03-29T17:45:53.344613Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:45:55.943208Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/modules/user/user.resolver.ts")}
+2025-03-29T17:45:55.943243Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:46:06.839337Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/common/guards")}
+2025-03-29T17:46:06.839370Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:46:12.937589Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/guards/auth.guard.ts"), AnchoredSystemPathBuf("apps/backend/src/common/guards")}
+2025-03-29T17:46:12.937606Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:46:14.838147Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/guards/auth.guard.ts")}
+2025-03-29T17:46:14.838164Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:46:30.836620Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/modules/happiness-bomb/happiness-bomb.resolver.ts")}
+2025-03-29T17:46:30.836646Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:46:45.837481Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/modules/happiness-bomb/happiness-bomb.service.ts")}
+2025-03-29T17:46:45.837497Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:46:52.436838Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows")}
+2025-03-29T17:46:52.436854Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:02.536850Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/ci.yml")}
+2025-03-29T17:47:02.536867Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:05.837869Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/ci.yml")}
+2025-03-29T17:47:05.837905Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:15.065533Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-backend.yml")}
+2025-03-29T17:47:15.065552Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:17.836641Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-backend.yml")}
+2025-03-29T17:47:17.836659Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:17.937565Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-backend.yml")}
+2025-03-29T17:47:17.937581Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:26.837774Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-web.yml")}
+2025-03-29T17:47:26.837797Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:26.947570Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-web.yml")}
+2025-03-29T17:47:26.947682Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:28.837831Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-web.yml")}
+2025-03-29T17:47:28.837940Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:38.036818Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".github/workflows/deploy-web.yml")}
+2025-03-29T17:47:38.036839Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:43.736935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/package.json")}
+2025-03-29T17:47:43.736952Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:47:44.838718Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:47:44.838735Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:54.037362Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/main.ts")}
+2025-03-29T17:47:54.037378Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:54.137798Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/main.ts")}
+2025-03-29T17:47:54.137815Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:56.437457Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/main.ts")}
+2025-03-29T17:47:56.437478Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:47:56.537673Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/main.ts")}
+2025-03-29T17:47:56.537688Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:05.438988Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json")}
+2025-03-29T17:48:05.439005Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:06.538616Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:48:06.538635Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:15.438445Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/main.tsx")}
+2025-03-29T17:48:15.438463Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:17.338491Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/main.tsx")}
+2025-03-29T17:48:17.338510Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:23.337818Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/src/graphql")}
+2025-03-29T17:48:23.337838Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:31.639271Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/graphql"), AnchoredSystemPathBuf("src/graphql/queries.ts")}
+2025-03-29T17:48:31.639290Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:33.838702Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/graphql/queries.ts")}
+2025-03-29T17:48:33.838726Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:40.438055Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/graphql/mutations.ts")}
+2025-03-29T17:48:40.438078Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:42.538154Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/graphql/mutations.ts")}
+2025-03-29T17:48:42.538176Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:48:45.239666Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/graphql/mutations.ts"), AnchoredSystemPathBuf("src/graphql/queries.ts")}
+2025-03-29T17:48:45.239695Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:04.939105Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/pages/dashboard"), AnchoredSystemPathBuf("src/pages"), AnchoredSystemPathBuf("src/pages/dashboard/Dashboard.tsx")}
+2025-03-29T17:49:04.939119Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:05.139279Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/pages/dashboard/Dashboard.tsx")}
+2025-03-29T17:49:05.139297Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:07.239880Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/pages/dashboard/Dashboard.tsx")}
+2025-03-29T17:49:07.239901Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:07.383691Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/pages/dashboard/Dashboard.tsx")}
+2025-03-29T17:49:07.390765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:27.239787Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/pages/create"), AnchoredSystemPathBuf("src/pages/create/CreateBomb.tsx")}
+2025-03-29T17:49:27.239809Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:29.139263Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/pages/create/CreateBomb.tsx")}
+2025-03-29T17:49:29.139286Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:43.540740Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/App.tsx")}
+2025-03-29T17:49:43.540761Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:46.040169Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/App.tsx")}
+2025-03-29T17:49:46.040191Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:47.440142Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/App.tsx")}
+2025-03-29T17:49:47.440166Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:49:47.539773Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("src/App.tsx")}
+2025-03-29T17:49:47.539791Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:02.240294Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json")}
+2025-03-29T17:50:02.240314Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:03.340350Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:50:03.340371Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:15.139856Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/package.json")}
+2025-03-29T17:50:15.139903Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:50:16.240646Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:50:16.240661Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:22.340020Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/test")}
+2025-03-29T17:50:22.340040Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:50:22.340124Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T17:50:40.340445Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test")}
+2025-03-29T17:50:40.340468Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:40.441168Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/happiness-bomb.service.spec.ts")}
+2025-03-29T17:50:40.441181Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:43.140759Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/happiness-bomb.service.spec.ts")}
+2025-03-29T17:50:43.140778Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:43.241179Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/happiness-bomb.service.spec.ts")}
+2025-03-29T17:50:43.241193Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:48.241112Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/jest-e2e.json")}
+2025-03-29T17:50:48.241132Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:48.341499Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/jest-e2e.json")}
+2025-03-29T17:50:48.341520Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:50.541192Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/jest-e2e.json")}
+2025-03-29T17:50:50.541215Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:50:58.040530Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/app.e2e-spec.ts")}
+2025-03-29T17:50:58.040548Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:51:00.354411Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/app.e2e-spec.ts")}
+2025-03-29T17:51:00.354431Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:51:00.440903Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("test/app.e2e-spec.ts")}
+2025-03-29T17:51:00.440925Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:51:57.042271Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/models/happiness-bomb.model.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.module.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/prisma/prisma.module.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.module.js"), AnchoredSystemPathBuf("apps/backend/dist/main.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/user/user.module.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/prisma/prisma.service.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/user/user.resolver.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/user/user.service.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.module.js.map"), AnchoredSystemPathBuf("apps/backend/dist/app.module.d.ts")}
+2025-03-29T17:51:57.042306Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:51:57.144881Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.service.js.map"), AnchoredSystemPathBuf("apps/backend/dist/common/guards/auth.guard.js.map"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.service.js"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.resolver.js"), AnchoredSystemPathBuf("apps/backend/dist/common/guards"), AnchoredSystemPathBuf("apps/backend/dist/common/guards/auth.guard.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/common/guards/auth.guard.js"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.resolver.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/common"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.resolver.js.map"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.service.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo")}
+2025-03-29T17:51:57.144894Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T17:51:57.144946Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T17:53:25.143537Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("README.md")}
+2025-03-29T17:53:25.143552Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:53:34.443941Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("README.md")}
+2025-03-29T17:53:34.443955Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:53:34.544321Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("README.md")}
+2025-03-29T17:53:34.544334Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:53:35.644444Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("README.md")}
+2025-03-29T17:53:35.644456Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:53:48.044230Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/mobile/.expo/README.md"), AnchoredSystemPathBuf("apps/mobile/.expo"), AnchoredSystemPathBuf("apps/mobile/.expo/devices.json"), AnchoredSystemPathBuf("apps/mobile/.expo/devices.json.2491078157"), AnchoredSystemPathBuf("apps/mobile/tsconfig.json.510374632"), AnchoredSystemPathBuf("apps/mobile/tsconfig.json"), AnchoredSystemPathBuf("apps/mobile/tsconfig.json.3363780682")}
+2025-03-29T17:53:48.044242Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:53:48.144123Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/mobile/tsconfig.json"), AnchoredSystemPathBuf("apps/mobile/tsconfig.json.3363780682")}
+2025-03-29T17:53:48.144136Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:06.544967Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/mobile/package.json.1863819043"), AnchoredSystemPathBuf("apps/mobile/package.json")}
+2025-03-29T17:54:06.544979Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:17.345509Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:54:17.345526Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:18.644733Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json.1409578073")}
+2025-03-29T17:54:18.644743Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:18.744747Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json.1409578073"), AnchoredSystemPathBuf("apps/web/package.json")}
+2025-03-29T17:54:18.744765Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:22.244208Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:54:22.244221Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:23.744871Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/package.json"), AnchoredSystemPathBuf("apps/web/package.json.4108461106")}
+2025-03-29T17:54:23.744888Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:27.645116Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:54:27.645133Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:54:29.944259Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("packages/ui/package.json"), AnchoredSystemPathBuf("packages/ui/package.json.3147656862")}
+2025-03-29T17:54:29.944272Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/ui"), path: AnchoredSystemPathBuf("packages/ui") }}))
+2025-03-29T17:54:33.245672Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("package-lock.json")}
+2025-03-29T17:54:33.245689Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T17:55:16.945584Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("README.md")}
+2025-03-29T17:55:16.945599Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T18:01:13.353012Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env")}
+2025-03-29T18:01:13.353029Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T18:01:31.153524Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf(".env")}
+2025-03-29T18:01:31.153537Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T18:09:00.461235Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("happiness-bomb/turbo.json")}
+2025-03-29T18:09:00.461256Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T18:09:05.461935Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("happiness-bomb/apps/web/app/fonts/GeistVF.woff"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/package.json"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/turborepo-light.svg"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/src/code.tsx"), AnchoredSystemPathBuf("happiness-bomb/packages/eslint-config/base.js"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/vercel.svg"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/globe.svg"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/layout.tsx"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/page.module.css"), AnchoredSystemPathBuf("happiness-bomb/apps/web/next-env.d.ts"), AnchoredSystemPathBuf("happiness-bomb/.npmrc"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/vercel.svg"), AnchoredSystemPathBuf("happiness-bomb/packages/typescript-config/react-library.json"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/fonts/GeistVF.woff"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/fonts/GeistMonoVF.woff"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/tsconfig.json"), AnchoredSystemPathBuf("happiness-bomb/packages/typescript-config"), AnchoredSystemPathBuf("happiness-bomb/apps/web/.gitignore"), AnchoredSystemPathBuf("happiness-bomb/apps/web/tsconfig.json"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/src/button.tsx"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/turbo"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/turbo/generators/config.ts"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/turborepo-light.svg"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/eslint.config.js"), AnchoredSystemPathBuf("happiness-bomb/packages/typescript-config/nextjs.json"), AnchoredSystemPathBuf("happiness-bomb/apps/web/README.md"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/next.svg"), AnchoredSystemPathBuf("happiness-bomb/package.json"), AnchoredSystemPathBuf("happiness-bomb/apps/docs"), AnchoredSystemPathBuf("happiness-bomb/.gitignore"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/globe.svg"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/next.svg"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/eslint.config.mjs"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/tsconfig.json"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/fonts"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/next.config.js"), AnchoredSystemPathBuf("happiness-bomb/apps/web/next.config.js"), AnchoredSystemPathBuf("happiness-bomb/apps"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/next-env.d.ts"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public"), AnchoredSystemPathBuf("happiness-bomb/apps/web"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/README.md"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/turborepo-dark.svg"), AnchoredSystemPathBuf("happiness-bomb"), AnchoredSystemPathBuf("happiness-bomb/apps/web/eslint.config.js"), AnchoredSystemPathBuf("happiness-bomb/package-lock.json"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/file-text.svg"), AnchoredSystemPathBuf("happiness-bomb/packages/eslint-config/react-internal.js"), AnchoredSystemPathBuf("happiness-bomb/packages"), AnchoredSystemPathBuf("happiness-bomb/packages/eslint-config/README.md"), AnchoredSystemPathBuf("happiness-bomb/packages/eslint-config/next.js"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/fonts/GeistMonoVF.woff"), AnchoredSystemPathBuf("happiness-bomb/packages/typescript-config/base.json"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/package.json"), AnchoredSystemPathBuf("happiness-bomb/apps/web/package.json"), AnchoredSystemPathBuf("happiness-bomb/packages/ui"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/favicon.ico"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/globals.css"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/page.module.css"), AnchoredSystemPathBuf("happiness-bomb/README.md"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/turborepo-dark.svg"), AnchoredSystemPathBuf("happiness-bomb/packages/eslint-config"), AnchoredSystemPathBuf("happiness-bomb/packages/eslint-config/package.json"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/fonts"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/favicon.ico"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/turbo/generators/templates"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/src/card.tsx"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/layout.tsx"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/globals.css"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/app/page.tsx"), AnchoredSystemPathBuf("happiness-bomb/apps/web/app/page.tsx"), AnchoredSystemPathBuf("happiness-bomb/packages/typescript-config/package.json"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/turbo/generators/templates/component.hbs"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/.gitignore"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/window.svg"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public/file-text.svg"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/src"), AnchoredSystemPathBuf("happiness-bomb/packages/ui/turbo/generators"), AnchoredSystemPathBuf("happiness-bomb/apps/docs/public"), AnchoredSystemPathBuf("happiness-bomb/apps/web/public/window.svg")}
+2025-03-29T18:09:05.461956Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T18:11:04.964144Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo")}
+2025-03-29T18:11:04.964159Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))

@@ -16,6 +16,26 @@ export class HappinessBombService {
     });
   }
 
+  async findSentBombs(userId: string) {
+    return this.prisma.happinessBomb.findMany({
+      where: { creatorId: userId },
+      include: {
+        creator: true,
+        recipient: true,
+      },
+    });
+  }
+
+  async findReceivedBombs(userId: string) {
+    return this.prisma.happinessBomb.findMany({
+      where: { recipientId: userId },
+      include: {
+        creator: true,
+        recipient: true,
+      },
+    });
+  }
+
   async createHappinessBomb(creatorId: string, data: {
     title: string;
     description?: string;

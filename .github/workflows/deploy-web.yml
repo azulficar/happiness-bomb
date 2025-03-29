@@ -1,0 +1,43 @@
+name: Deploy Web to Vercel
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'apps/web/**'
+      - 'packages/ui/**'
+      - 'packages/types/**'
+      - 'package.json'
+      - '.github/workflows/deploy-web.yml'
+
+jobs:
+  deploy:
+    name: Deploy to Vercel
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Vercel CLI
+        run: npm install -g vercel
+
+      - name: Build shared packages
+        run: |
+          npm run build --workspace=@happiness-bomb/types
+          npm run build --workspace=@happiness-bomb/ui
+
+      - name: Deploy to Vercel
+        run: vercel deploy --prod --token ${VERCEL_TOKEN}
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+          VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }} 

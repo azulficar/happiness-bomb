@@ -18,6 +18,7 @@ export declare class UserService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -40,6 +41,7 @@ export declare class UserService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;

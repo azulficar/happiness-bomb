@@ -50,7 +50,7 @@ happiness-bomb/
    ```
 4. Start the development server:
    ```
-   npm run dev
+   npm run dev --workspace=@happiness-bomb/backend
    ```
 
 ## Features

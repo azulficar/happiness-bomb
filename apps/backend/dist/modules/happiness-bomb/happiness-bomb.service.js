@@ -26,6 +26,24 @@ let HappinessBombService = class HappinessBombService {
             },
         });
     }
+    async findSentBombs(userId) {
+        return this.prisma.happinessBomb.findMany({
+            where: { creatorId: userId },
+            include: {
+                creator: true,
+                recipient: true,
+            },
+        });
+    }
+    async findReceivedBombs(userId) {
+        return this.prisma.happinessBomb.findMany({
+            where: { recipientId: userId },
+            include: {
+                creator: true,
+                recipient: true,
+            },
+        });
+    }
     async createHappinessBomb(creatorId, data) {
         return this.prisma.happinessBomb.create({
             data: {

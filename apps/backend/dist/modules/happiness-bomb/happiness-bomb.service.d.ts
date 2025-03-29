@@ -9,6 +9,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -18,6 +19,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -34,6 +36,72 @@ export declare class HappinessBombService {
         createdAt: Date;
         updatedAt: Date;
     }>;
+    findSentBombs(userId: string): Promise<({
+        creator: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+        recipient: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+    } & {
+        id: string;
+        title: string;
+        description: string | null;
+        creatorId: string;
+        recipientId: string;
+        scheduledSendTime: Date | null;
+        sentAt: Date | null;
+        status: import(".prisma/client").$Enums.BombStatus;
+        createdAt: Date;
+        updatedAt: Date;
+    })[]>;
+    findReceivedBombs(userId: string): Promise<({
+        creator: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+        recipient: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+    } & {
+        id: string;
+        title: string;
+        description: string | null;
+        creatorId: string;
+        recipientId: string;
+        scheduledSendTime: Date | null;
+        sentAt: Date | null;
+        status: import(".prisma/client").$Enums.BombStatus;
+        createdAt: Date;
+        updatedAt: Date;
+    })[]>;
     createHappinessBomb(creatorId: string, data: {
         title: string;
         description?: string;
@@ -45,6 +113,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -54,6 +123,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -81,6 +151,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -90,6 +161,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -112,6 +184,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -121,6 +194,7 @@ export declare class HappinessBombService {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;

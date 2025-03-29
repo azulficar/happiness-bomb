@@ -9,6 +9,7 @@ export declare class HappinessBombResolver {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -18,6 +19,7 @@ export declare class HappinessBombResolver {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -34,12 +36,13 @@ export declare class HappinessBombResolver {
         createdAt: Date;
         updatedAt: Date;
     }>;
-    createHappinessBomb(creatorId: string, createHappinessBombInput: CreateHappinessBombInput): Promise<{
+    mySentBombs(user: any): Promise<({
         creator: {
             id: string;
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -49,6 +52,73 @@ export declare class HappinessBombResolver {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+    } & {
+        id: string;
+        title: string;
+        description: string | null;
+        creatorId: string;
+        recipientId: string;
+        scheduledSendTime: Date | null;
+        sentAt: Date | null;
+        status: import(".prisma/client").$Enums.BombStatus;
+        createdAt: Date;
+        updatedAt: Date;
+    })[]>;
+    myReceivedBombs(user: any): Promise<({
+        creator: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+        recipient: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+    } & {
+        id: string;
+        title: string;
+        description: string | null;
+        creatorId: string;
+        recipientId: string;
+        scheduledSendTime: Date | null;
+        sentAt: Date | null;
+        status: import(".prisma/client").$Enums.BombStatus;
+        createdAt: Date;
+        updatedAt: Date;
+    })[]>;
+    createHappinessBomb(user: any, createHappinessBombInput: CreateHappinessBombInput): Promise<{
+        creator: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
+            email: string;
+            phoneNumber: string | null;
+            profileImageUrl: string | null;
+        };
+        recipient: {
+            id: string;
+            createdAt: Date;
+            updatedAt: Date;
+            name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -65,12 +135,13 @@ export declare class HappinessBombResolver {
         createdAt: Date;
         updatedAt: Date;
     }>;
-    sendHappinessBomb(id: string): Promise<{
+    sendHappinessBomb(user: any, id: string): Promise<{
         creator: {
             id: string;
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;
@@ -80,6 +151,7 @@ export declare class HappinessBombResolver {
             createdAt: Date;
             updatedAt: Date;
             name: string;
+            externalId: string | null;
             email: string;
             phoneNumber: string | null;
             profileImageUrl: string | null;

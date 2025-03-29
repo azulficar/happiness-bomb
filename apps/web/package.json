@@ -10,18 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@apollo/client": "^3.8.10",
+    "@apollo/client": "^3.13.5",
     "@clerk/clerk-react": "^4.30.3",
     "@happiness-bomb/types": "*",
     "@happiness-bomb/ui": "*",
+    "@sentry/react": "^9.10.1",
     "graphql": "^16.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
     "react-router-dom": "^6.21.3"
   },
   "devDependencies": {
-    "@types/react": "^18.2.43",
-    "@types/react-dom": "^18.2.17",
+    "@types/react": "~18.2.14",
+    "@types/react-dom": "~18.0.10",
     "@typescript-eslint/eslint-plugin": "^6.14.0",
     "@typescript-eslint/parser": "^6.14.0",
     "@vitejs/plugin-react": "^4.2.1",
@@ -34,4 +35,4 @@
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
-} 
+}
