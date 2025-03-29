@@ -1,0 +1,76 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+"""Status of a happiness bomb"""
+enum BombStatus {
+  DRAFT
+  READY
+  SENT
+}
+
+input CreateHappinessBombInput {
+  description: String
+  recipientId: String!
+  scheduledSendTime: String
+  title: String!
+}
+
+input CreateUserInput {
+  email: String!
+  name: String!
+  phoneNumber: String
+  profileImageUrl: String
+}
+
+"""
+A date-time string at UTC, such as 2019-12-03T09:54:33Z, compliant with the date-time format.
+"""
+scalar DateTime
+
+type HappinessBombModel {
+  createdAt: DateTime!
+  creator: UserModel!
+  creatorId: String!
+  description: String
+  id: ID!
+  recipient: UserModel!
+  recipientId: String!
+  scheduledSendTime: DateTime
+  sentAt: DateTime
+  status: BombStatus!
+  title: String!
+  updatedAt: DateTime!
+}
+
+type Mutation {
+  createHappinessBomb(createHappinessBombInput: CreateHappinessBombInput!, creatorId: String!): HappinessBombModel!
+  createUser(createUserInput: CreateUserInput!): UserModel!
+  sendHappinessBomb(id: String!): HappinessBombModel!
+  updateUser(id: String!, updateUserInput: UpdateUserInput!): UserModel!
+}
+
+type Query {
+  happinessBomb(id: String!): HappinessBombModel
+  user(id: String!): UserModel
+  userByEmail(email: String!): UserModel
+  userReceivedBombs(userId: String!): [UserModel!]!
+  userSentBombs(userId: String!): [UserModel!]!
+}
+
+input UpdateUserInput {
+  email: String
+  name: String
+  phoneNumber: String
+  profileImageUrl: String
+}
+
+type UserModel {
+  createdAt: DateTime!
+  email: String!
+  id: ID!
+  name: String!
+  phoneNumber: String
+  profileImageUrl: String
+  updatedAt: DateTime!
+}
