@@ -1,0 +1,8 @@
+type Query {
+  healthCheck: HealthCheckResult!
+}
+
+type HealthCheckResult {
+  status: String!
+  timestamp: String!
+} 

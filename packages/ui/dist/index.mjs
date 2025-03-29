@@ -99,6 +99,7 @@ var Input = forwardRef(
     ] });
   }
 );
+Input.displayName = "Input";
 
 // src/Tabs.tsx
 import { createContext, useContext, useState } from "react";

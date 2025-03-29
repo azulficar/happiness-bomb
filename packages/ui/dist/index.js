@@ -134,6 +134,7 @@ var Input = (0, import_react.forwardRef)(
     ] });
   }
 );
+Input.displayName = "Input";
 
 // src/Tabs.tsx
 var import_react2 = require("react");
