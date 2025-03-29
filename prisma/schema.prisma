@@ -1,0 +1,103 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String          @id @default(uuid())
+  name            String
+  email           String          @unique
+  phoneNumber     String?
+  profileImageUrl String?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  createdBombs    HappinessBomb[] @relation("CreatedBombs")
+  receivedBombs   HappinessBomb[] @relation("ReceivedBombs")
+  contributions   Contribution[]
+  invitesSent     Invite[]        @relation("SentInvites")
+  invitesReceived Invite[]        @relation("ReceivedInvites")
+  readinessStates Readiness[]
+  notifications   Notification[]
+}
+
+model HappinessBomb {
+  id                String         @id @default(uuid())
+  title             String
+  description       String?
+  creatorId         String
+  recipientId       String
+  scheduledSendTime DateTime?
+  sentAt            DateTime?
+  status            BombStatus     @default(DRAFT)
+  createdAt         DateTime       @default(now())
+  updatedAt         DateTime       @updatedAt
+  creator           User           @relation("CreatedBombs", fields: [creatorId], references: [id])
+  recipient         User           @relation("ReceivedBombs", fields: [recipientId], references: [id])
+  contributions     Contribution[]
+  invites           Invite[]
+  readinessStates   Readiness[]
+}
+
+model Contribution {
+  id                 String        @id @default(uuid())
+  bombId             String
+  contributorId      String
+  message            String
+  photos             String[]
+  createdAt          DateTime      @default(now())
+  updatedAt          DateTime      @updatedAt
+  hiddenByContributor Boolean      @default(false)
+  bomb               HappinessBomb @relation(fields: [bombId], references: [id])
+  contributor        User          @relation(fields: [contributorId], references: [id])
+}
+
+model Invite {
+  id            String         @id @default(uuid())
+  bombId        String
+  invitedById   String
+  invitedUserId String
+  acceptedAt    DateTime?
+  declinedAt    DateTime?
+  createdAt     DateTime       @default(now())
+  bomb          HappinessBomb  @relation(fields: [bombId], references: [id])
+  invitedBy     User           @relation("SentInvites", fields: [invitedById], references: [id])
+  invitedUser   User           @relation("ReceivedInvites", fields: [invitedUserId], references: [id])
+}
+
+model Readiness {
+  id        String        @id @default(uuid())
+  bombId    String
+  userId    String
+  isReady   Boolean       @default(false)
+  updatedAt DateTime      @updatedAt
+  bomb      HappinessBomb @relation(fields: [bombId], references: [id])
+  user      User          @relation(fields: [userId], references: [id])
+
+  @@unique([bombId, userId])
+}
+
+model Notification {
+  id        String           @id @default(uuid())
+  userId    String
+  type      NotificationType
+  payload   Json
+  read      Boolean          @default(false)
+  createdAt DateTime         @default(now())
+  user      User             @relation(fields: [userId], references: [id])
+}
+
+enum BombStatus {
+  DRAFT
+  READY
+  SENT
+}
+
+enum NotificationType {
+  INVITE_RECEIVED
+  BOMB_SENT
+  REMINDER
+} 
