@@ -44,7 +44,7 @@ type HappinessBombModel {
 }
 
 type Mutation {
-  createHappinessBomb(createHappinessBombInput: CreateHappinessBombInput!, creatorId: String!): HappinessBombModel!
+  createHappinessBomb(createHappinessBombInput: CreateHappinessBombInput!): HappinessBombModel!
   createUser(createUserInput: CreateUserInput!): UserModel!
   sendHappinessBomb(id: String!): HappinessBombModel!
   updateUser(id: String!, updateUserInput: UpdateUserInput!): UserModel!
@@ -52,6 +52,8 @@ type Mutation {
 
 type Query {
   happinessBomb(id: String!): HappinessBombModel
+  myReceivedBombs: [HappinessBombModel!]!
+  mySentBombs: [HappinessBombModel!]!
   user(id: String!): UserModel
   userByEmail(email: String!): UserModel
   userReceivedBombs(userId: String!): [UserModel!]!

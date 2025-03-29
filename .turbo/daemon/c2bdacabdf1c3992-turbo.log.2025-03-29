@@ -672,3 +672,28 @@
 2025-03-29T18:09:05.461956Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
 2025-03-29T18:11:04.964144Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo")}
 2025-03-29T18:11:04.964159Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:15:17.467823Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/web/vite.config.ts.timestamp-1743272117383-a483705f6bdc8.mjs")}
+2025-03-29T18:15:17.467833Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Root, path: AnchoredSystemPathBuf("") }}))
+2025-03-29T18:15:39.767836Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/decorators/current-user.decorator.ts")}
+2025-03-29T18:15:39.767852Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:15:39.868178Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/decorators/current-user.decorator.ts")}
+2025-03-29T18:15:39.868192Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:15:39.868244Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T18:15:41.468382Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/decorators/current-user.decorator.ts")}
+2025-03-29T18:15:41.468403Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:15:48.920693Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/decorators/current-user.decorator.ts")}
+2025-03-29T18:15:48.920714Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:15:48.924448Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T18:15:55.869328Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/src/common/guards/auth.guard.ts")}
+2025-03-29T18:15:55.869345Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:15:55.887568Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T18:16:03.968861Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/dist/app.module.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/common/decorators/current-user.decorator.js.map"), AnchoredSystemPathBuf("apps/backend/dist/common/decorators/current-user.decorator.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/common/decorators"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.resolver.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.resolver.js.map"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.module.d.ts"), AnchoredSystemPathBuf("apps/backend/dist/modules/happiness-bomb/happiness-bomb.resolver.js"), AnchoredSystemPathBuf("apps/backend/dist/tsconfig.tsbuildinfo"), AnchoredSystemPathBuf("apps/backend/dist/common/decorators/current-user.decorator.js"), AnchoredSystemPathBuf("apps/backend/dist/main.d.ts")}
+2025-03-29T18:16:03.968874Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:16:06.069223Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/schema.graphql")}
+2025-03-29T18:16:06.069235Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:16:11.167994Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/schema.graphql")}
+2025-03-29T18:16:11.168006Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:16:11.168064Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
+2025-03-29T18:16:49.569721Z  WARN turborepo_lib::package_changes_watcher: changed_files: {AnchoredSystemPathBuf("apps/backend/schema.graphql")}
+2025-03-29T18:16:49.569733Z  WARN turborepo_lib::package_changes_watcher: changed_packages: Ok(Some({WorkspacePackage { name: Other("@happiness-bomb/backend"), path: AnchoredSystemPathBuf("apps/backend") }}))
+2025-03-29T18:16:49.588175Z  WARN turborepo_lib::package_changes_watcher: hashes are the same, no need to rerun
